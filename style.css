@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: blue;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: blue;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -198,18 +198,18 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: blue;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid white;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: black;
     background: none;
 }
 
@@ -235,25 +235,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: rgb(107, 20, 220);
+    color: blue;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(107, 20, 220);
+    background: blue;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(107, 20, 220);
+    border: 2px solid black;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: blue;
     background: none;
 }
 
@@ -282,7 +282,7 @@ section .title::after{
     margin-top: 15px;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: blue;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -292,7 +292,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: white;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -307,7 +307,7 @@ section .title::after{
 
 /* skills section styling */
 
-.skills .title::after{
+/* .skills .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -378,7 +378,7 @@ section .title::after{
 }
 .skills-content .right .mysql::before{
     width: 70%;
-}
+} */
 
 /* champions section styling */
 .champions .title::after{
@@ -393,7 +393,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .champions .carousel .card:hover{
-    background: crimson;
+    background: blue;
 }
 .champions .carousel .card .box{
     display: flex;
@@ -415,7 +415,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid white;
     transition: all 0.3s ease;
 }
 .champions .carousel .card:hover img{
@@ -431,7 +431,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid blue!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -440,7 +440,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: blue!important;
 }
 
 /* contact section styling */
